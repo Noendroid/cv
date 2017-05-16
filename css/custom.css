@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ccc;
+}
+#cv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+#profile {
+    background: #1e1e1e;
+    color: #a5a5a5;
+    padding: 25px;
+}
+#intro {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #a5a5a5;
+}
+#intro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+}
+#intro header {
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+#intro header h1 {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+#intro header h2 {
+    font-weight: 800;
+    color: orange;
+    font-size: 35px;
+    margin: 0;
+}
+#intro header h3 {
+    color: #fff;
+    font-size: 15px;
+}
+#about {
+    border-left: 2px solid #a5a5a5;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#contact-info {
+    display: flex;
+    border-bottom: 2px solid #a5a5a5;
+}
+#contact-info ul {
+    list-style: none;
+}
+#contact-info ul:first-child {
+    font-weight: 600;
+    color: #ddd;
+}
+#contact-info article:first-child {
+    color: #ddd;
+}
+#social-networks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#social-networks a{
+    color: #a5a5a5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
