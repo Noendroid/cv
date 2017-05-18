@@ -74,7 +74,20 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
-
+#experience {
+    background: #FAFAFA;
+    color: #212121;
+    padding: 25px;
+    display: flex;
+}
+#exp-overview h2 {
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+}
+#p {
+    display: flex;
+}
 
 
 
