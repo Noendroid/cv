@@ -83,14 +83,45 @@ body {
 #exp-overview h2 {
     text-transform: uppercase;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 50px;
+}
+#description {
+    margin-left: 50px;
+}
+#description p{
+    color: #858585;
+}
+#p h4{
+    font-size: 20px;
+    color: #263238;
 }
 #p {
     display: flex;
 }
-
-
-
+#title {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+}
+#title h3{
+    font-size: 20px;
+    text-align: right;
+    color: #0288D1;
+}
+#title h5{
+    font-weight: 100;
+    font-family: cursive;
+    color: #a5a5a5;
+}
+#exp-proskills{
+    background: #7CB342;
+}
+#exp-perskills{
+    background: #0277BD;
+}
+#exp-stats{
+    background-size: 80px;
+}
 
 
 
