@@ -54,13 +54,8 @@ body {
     display: flex;
     border-bottom: 2px solid #a5a5a5;
 }
-#contact-info ul {
-    list-style: none;
-}
-#contact-info ul:first-child {
-    font-weight: 600;
-    color: #ddd;
-}
+
+
 #contact-info article:first-child {
     color: #ddd;
 }
@@ -75,9 +70,12 @@ body {
     font-weight: 600;
 }
 #experience {
+    margin: 0px;
     background: #FAFAFA;
     color: #212121;
     padding: 25px;
+    padding-top: 0px;
+    padding-right: 0px;
     display: flex;
 }
 #exp-overview h2 {
@@ -113,20 +111,57 @@ body {
     font-family: cursive;
     color: #a5a5a5;
 }
-#exp-proskills{
+#exp-proskills {
     background: #7CB342;
 }
+#exp-proskills h2{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+#exp-proskills progress{
+    border-radius: 45px;
+}
+#exp-proskills section{
+    display: flex;
+}
+#exp-proskills ul{
+    list-style: none;
+}
 #exp-perskills{
+    margin: 0px;
     background: #0277BD;
 }
-#exp-stats{
-    background-size: 80px;
+#exp-perskills progress{
+    border-radius: 45px;
 }
 
+#exp-perskills h2{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+#exp-perskills section{
+    display: flex;
+}
 
+#exp-stats li h5{
+    margin: 3px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+#exp-stats ul{
+    list-style: none;
+}
+ul {
+    margin: 0px;
+    padding: 30px;
+    list-style: none;
+}
 
+#exp-overview {
+    padding-right: 16px;
+    border-left: 2px;
+}
 
-
-
-
-
+#exp-stats {
+    padding: 0px;
+}
