@@ -78,3 +78,15 @@ languages
 --------------------
 	id
 	name
+	
+user_social_networks
+--------------------
+	network_id
+	user_id
+	link
+	
+social_networks
+--------------------
+	id
+	name
+	icon_name
