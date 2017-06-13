@@ -1,48 +1,80 @@
 users
-----------
-id
-name
-about_me
-phone
-area
-email
-degree
+--------------------
+	id
+	first_name
+	last_name
+	about_me
+	phone
+	area
+	email
+	degree
+	created
 
 user_experience
-----------
-user_id
-title
-dates
-second_title
-description
+--------------------
+	experience_id
+	user_id
+	experience_name
+	experience_location
+	start_date
+	end_date
+	description
+	created
 
 user_pro_skills
-----------
-user_id
-category
-value
+--------------------
+	skill_id
+	user_id
+	value
+
+pro_skills
+--------------------
+	id
+	name
 
 user_per_skills
-----------
-user_id
-category
-value
-
+--------------------
+	skill_id
+	user_id
+	skill_name
+	value
+	
+per_skills
+--------------------
+	id
+	name
+	
 user_education
-----------
-user_id
-title
-dates
-second_title
-description
+--------------------
+	education_id
+	user_id
+	education_name
+	education_location
+	start_date
+	end_date
+	description
+	created
 
 user_hobbies
-----------
-user_id
-hobby
+--------------------
+	hobby_id
+	user_id
+	hobby
+	created
 
+hobbies
+--------------------
+	id
+	name
+	
 user_language
-----------
-user_id
-language
-value
+--------------------
+	language_id
+	user_id
+	value
+	created
+	
+languages
+--------------------
+	id
+	name
